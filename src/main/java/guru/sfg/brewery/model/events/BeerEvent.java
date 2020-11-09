@@ -1,6 +1,6 @@
-package guru.springframework.common.events;
+package guru.sfg.brewery.model.events;
 
-import guru.springframework.common.events.BeerDto;
+import guru.sfg.brewery.model.BeerDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

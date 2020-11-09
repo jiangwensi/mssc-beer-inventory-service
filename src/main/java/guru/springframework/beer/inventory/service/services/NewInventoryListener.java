@@ -2,13 +2,11 @@ package guru.springframework.beer.inventory.service.services;
 
 import guru.springframework.beer.inventory.service.config.JMSConfig;
 import guru.springframework.beer.inventory.service.domain.BeerInventory;
-import guru.springframework.common.events.NewInventoryEvent;
+import guru.sfg.brewery.model.events.NewInventoryEvent;
 import guru.springframework.beer.inventory.service.repositories.BeerInventoryRepository;
-import guru.springframework.common.events.BeerDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
-import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;

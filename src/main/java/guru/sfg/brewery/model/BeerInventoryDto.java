@@ -1,4 +1,4 @@
-package guru.springframework.common.events;
+package guru.sfg.brewery.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

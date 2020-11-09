@@ -1,4 +1,4 @@
-package guru.springframework.common.events;
+package guru.sfg.brewery.model;
 
 public enum BeerStyleEnum {
 
